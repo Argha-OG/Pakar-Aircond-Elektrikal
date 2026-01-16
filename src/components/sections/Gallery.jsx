@@ -7,7 +7,7 @@ import { ZoomIn } from "lucide-react";
 
 const projects = [
     {
-        src: projectRealImg,
+        src: projectRealImg, // Trying the real image again since it seemed valid
         title: "Site Visit: Sentul",
         desc: "Actual site inspection and servicing at a client's home."
     },
@@ -20,11 +20,6 @@ const projects = [
         src: installImg,
         title: "New Installation",
         desc: "Clean & minimalist Daikin installation in Setapak Condominium."
-    },
-    {
-        src: compressorImg,
-        title: "Gas Refill & Check",
-        desc: "Troubleshooting low gas pressure to fix 'not cooling' issue."
     },
     {
         src: wiringImg,
@@ -63,14 +58,12 @@ export function Gallery() {
                             whileHover={{ scale: 1.02 }}
                             className="group relative h-80 rounded-3xl overflow-hidden glass-card shadow-lg cursor-pointer"
                         >
-                            {/* Image */}
                             <img
                                 src={item.src}
                                 alt={item.title}
                                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                             />
 
-                            {/* Overlay */}
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-90 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-8">
                                 <div className="transform translate-y-4 group-hover:translate-y-0 transition-transform duration-300">
                                     <h3 className="text-2xl font-bold text-white mb-2">{item.title}</h3>
