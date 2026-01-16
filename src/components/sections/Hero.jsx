@@ -81,7 +81,7 @@ export function Hero() {
                         <motion.a
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
-                            href="tel:+601121011904"
+                            href="tel:+60136146924"
                             className="flex items-center justify-center gap-3 bg-red-600 hover:bg-red-700 text-white text-lg font-bold py-4 px-8 rounded-xl shadow-red-900/50 shadow-lg transition-all border-2 border-transparent hover:border-red-400"
                         >
                             <Phone className="w-6 h-6" />
@@ -90,7 +90,7 @@ export function Hero() {
                         <motion.a
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
-                            href="https://wa.me/601121011904?text=Hi%20Pakar%20Aircond%2C%20I%20need%20urgent%20service"
+                            href="https://wa.me/60136146924?text=Hi%20Pakar%20Aircond%2C%20I%20need%20urgent%20service"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center justify-center gap-3 bg-white/10 backdrop-blur-md hover:bg-white/20 text-white text-lg font-bold py-4 px-8 rounded-xl shadow-lg transition-all border-2 border-white/30 hover:border-white"

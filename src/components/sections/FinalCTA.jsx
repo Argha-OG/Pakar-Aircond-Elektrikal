@@ -51,14 +51,14 @@ export function FinalCTA() {
 
                 <div className="flex flex-col md:flex-row justify-center gap-6">
                     <a
-                        href="tel:+601121011904"
+                        href="tel:+60136146924"
                         className="bg-white text-blue-900 text-xl font-bold py-5 px-12 rounded-2xl shadow-2xl hover:bg-blue-50 transition-all flex items-center justify-center gap-3 hover:scale-105"
                     >
                         <Phone className="w-6 h-6" />
-                        Call 011-2101 1904
+                        Call 013-614 6924
                     </a>
                     <a
-                        href="https://wa.me/601121011904?text=Hi%20Pakar%20Aircond%2C%20I%20want%20to%20book%20a%20slot"
+                        href="https://wa.me/60136146924?text=Hi%20Pakar%20Aircond%2C%20I%20want%20to%20book%20a%20slot"
                         className="bg-green-500 text-white text-xl font-bold py-5 px-12 rounded-2xl shadow-2xl hover:bg-green-400 transition-all flex items-center justify-center gap-3 hover:scale-105"
                     >
                         <MessageSquare className="w-6 h-6" />

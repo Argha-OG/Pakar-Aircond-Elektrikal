@@ -16,7 +16,7 @@ export function Header() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
-    const whatsappNumber = "601121011904";
+    const whatsappNumber = "60136146924";
     const whatsappMessage = encodeURIComponent(
         "Hi Pakar Aircond, I found you on Google. I need an urgent repair for my unit."
     );
@@ -83,7 +83,7 @@ export function Header() {
                             className="flex items-center gap-2 px-5 py-2.5 rounded-full bg-blue-600 hover:bg-blue-700 text-white font-bold transition-all shadow-lg hover:shadow-blue-200 hover:-translate-y-0.5"
                         >
                             <Phone className="w-5 h-5" />
-                            011-2101 1904
+                            013-614 6924
                         </a>
                     </div>
 
